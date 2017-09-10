@@ -33,7 +33,12 @@
             <h3>If you run into a dark gem <img src="images/dark-gem.png" height="100" alt=gem>, it will cause a new bug to appear and set you back to the beginning.</h3>
         </div>
         <audio loop id="audio" autoplay="autoplay" controls="controls">
-         <source src="Flight.mp3"/></audio>
+         <source src="Flight.mp3"/>
+        </audio>
+        <script>
+            var audio = document.getElementById('audio');
+            audio.volume = .2;
+        </script>
     </main>
 
 </body>
